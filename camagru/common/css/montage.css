@@ -1,0 +1,125 @@
+@font-face {
+    font-family: "pintgram";
+    src: url("/common/police/Pintgram-Italic.ttf");
+  }
+
+  /* Total */
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+
+/* Result part */
+.upload {
+    background-color: #D3D3D3;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+    margin-bottom: 21px;
+}
+
+.user_gallery{
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction: column;
+    justify-content: center;
+    background-color: #D3D3D3;
+    border-radius: 6px;
+    text-align: center;
+    margin: 10px;
+}
+
+.user_gallery h1, .upload h1 {
+    font-family: "pintgram";
+}
+
+.btn-del
+{
+    background-color: red;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-more,  .uploadButton
+{
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2vw;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.huploadButton {
+    display: none;
+}
+
+.figure {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    
+    justify-content: center;
+    align-items: center;    
+    border-style: solid; 
+    border-color: black;
+    border-radius: 6px;
+}
+
+/* Camera part*/
+.startbutton{
+    background:url('/common/icon/takephoto.svg');
+    background-repeat: no-repeat;
+    cursor:pointer;
+    border:none;
+    width:42px;
+    height:42px;
+}
+.stream {
+    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+    display: -ms-flexbox;  /* TWEENER - IE 10 */
+    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 6px;
+}
+
+.calques {
+    height: 300px;
+    overflow: auto;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 6px;
+}
+
+.camera {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 15px;
+}

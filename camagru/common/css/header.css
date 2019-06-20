@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "pintgram";
+  src: url("/common/police/Pintgram-Italic.ttf");
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline;
+}
+
+.header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+}
+
+.icon {
+  width: 4vw;
+  margin: 1vw;
+  text-decoration: none;
+}
+
+.title {
+  font-family: "pintgram";
+  font-size: 6vw;
+  margin-left: auto;
+  margin-right: auto
+}
+
+.button {
+  background-color: black;
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vw;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.alert-success{
+  background-color: green;
+}
+
+.alert-error {
+  background-color: red;
+}
+
+.alert-success, .alert-error {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #00356A;
+}
+footer {
+  font-family: Georgia;
+  padding: 10px;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+footer li {
+  margin: 1vw;
+}
